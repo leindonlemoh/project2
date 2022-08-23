@@ -1,0 +1,78 @@
+/* portfolio section*/
+
+.section-portfolio {
+  width: 100%;
+  background-color: #196ebc;
+  height: 600px;
+}
+.team-header p {
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+#portfolio .row {
+  width: 100%;
+  padding-top: 90px;
+}
+.photo {
+  border-radius: 50%;
+  height: 200px;
+}
+.port-text {
+  text-align: center;
+  color: white;
+}
+.port-text .name {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.port-text .position {
+  font-size: 20px;
+}
+.col a:hover {
+  border: 2px solid #10497d;
+  border-radius: 25px;
+  height: 350px;
+}
+@media only screen and (max-width: 767px) {
+  .section-portfolio {
+    height: 850px;
+  }
+}
+@media only screen and (max-width: 471px) {
+  .section-portfolio {
+    height: 850px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .section-portfolio {
+    height: 1150px;
+  }
+  #portfolio .row {
+    width: 100%;
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .section-portfolio {
+    height: 1200px;
+  }
+  #portfolio .row {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .team-header p {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: normal;
+  }
+}
+/* endportfolio */
