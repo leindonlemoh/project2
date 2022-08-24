@@ -1,0 +1,65 @@
+nav.nav {
+    width: 100%;
+    height: 6rem;
+  
+    justify-content: space-between;
+  
+    background-color: var(--white-clr);
+  
+    z-index: 700;
+  }
+  
+  .nav div {
+    align-items: center;
+  }
+  
+  .logo__container h1 {
+    font-size: 2.8rem;
+    font-family: var(--logo-fnt);
+  
+    padding: 0.5rem 2rem;
+  }
+  
+  ul.nav__list {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  li.nav__item__left {
+    margin-left: 2rem;
+  }
+  
+  li.nav__item__right {
+    margin-right: 2rem;
+  }
+  
+  ul.nav__list li a {
+    transition: color var(--link-hover-trans);
+  }
+  
+  ul.nav__list li a:hover {
+    color: var(--gray-clr);
+  }
+  
+  input[value="Sign Up"] {
+    width: max-content;
+    height: 100%;
+  
+    font-weight: 500;
+  
+    color: var(--white-clr);
+    background-color: var(--blue-clr);
+  
+    border: 1px solid var(--blue-clr);
+  
+    padding: 0 2rem;
+  
+    transition: background-color var(--link-hover-trans);
+  
+    cursor: pointer;
+  }
+  
+  input[value="Sign Up"]:hover {
+    background-color: var(--white-clr);
+    color: var(--blue-clr);
+  }
