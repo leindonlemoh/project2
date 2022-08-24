@@ -1,0 +1,31 @@
+import React from "react";
+import about from "../../image/about.png";
+import "./About.css"
+
+
+const About = () => {
+    return (
+        <div className="about">
+      <div className="title">
+        <div className="about-title">About Us</div>
+      </div>
+      <div className="about-content">
+        <div className="about-text">
+          <p className="text-break">
+            We are a student of Kodego Philippines who is helping others to
+            learn and reinforce skills wherever we are. Whether you want to
+            learn a new subject, gain a new skill, or just enhance the ones you
+            already have. We believe in empowering individuals with learning
+            disabilities and their difference. We are based in the Philippines.
+          </p>
+        </div>
+
+        <div className="about-image">
+          <img src={about} class="shape" />
+        </div>
+      </div>
+    </div>
+    )
+}
+
+export default About
