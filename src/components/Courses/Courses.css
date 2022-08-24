@@ -1,0 +1,25 @@
+div.courses {
+    width: 100%;
+    height: 100%;
+
+    padding: 5rem 0;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+h2.courses__heading {
+    padding: 1rem;
+
+    font-size: 3rem;
+    color: var(--blue-clr);
+}
+
+section.courses__container {
+    grid-template-columns: repeat(3, 1fr);
+
+    padding: 2rem 5rem;
+
+    gap: 0 1.7rem;
+}

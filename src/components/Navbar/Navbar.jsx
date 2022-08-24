@@ -12,7 +12,7 @@ const Navbar = () => {
             </div>
             <ul className="navbar__nav-list nav-list__left flex">
                 <li className="navbar__nav-item nav-item__left"><a href="../">Home</a></li>
-                <li className="navbar__nav-item nav-item__left"><a href="../">Courses</a></li>
+                <li className="navbar__nav-item nav-item__left"><a href="../Courses/Courses.jsx#courses">Courses</a></li>
                 <li className="navbar__nav-item nav-item__left"><a href="../">About Us</a></li>
                 <li className="navbar__nav-item nav-item__left"><a href="../">Team</a></li>
             </ul>
