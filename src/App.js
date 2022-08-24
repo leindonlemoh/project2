@@ -5,12 +5,15 @@ import About from "./components/About/About";
 import Footer from "./Footer/Footer";
 import Banner from "./components/Banner/Banner";
 import Team from "./components/Team/Team";
+import Courses from "./components/Courses/Courses";
 
 const App = () => {
   return (
     <div>
       <Navbar />
       <Banner />
+      <Courses />
+
       <Team />
       <About />
       <Footer />
