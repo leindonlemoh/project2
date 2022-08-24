@@ -1,90 +1,79 @@
 :root {
-    --white-clr: rgb(230, 230, 230);
-    --black-clr: rgb(13, 13, 13);
-    --blue-clr: #1766c7;
-    --gray-clr: rgb(194, 194, 194);
-  
-    --main-font: "General Sans", sans-serf;
-    --logo-fnt: "Switzer", sans-serif;
-  
-    --link-hover-trans: 0.2s ease-out;
-  }
-  
-  /* Resets */
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  html {
-    overscroll-behavior: contain;
-  }
-  
-  a {
-    display: block;
-  
-    color: inherit;
-  
-    text-decoration: none;
-  
-    cursor: pointer;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  button {
-    border: none;
-  
-    background: none;
-  
-    font: inherit;
-  }
-  
-  input {
-    border: none;
-  
-    background: none;
-  
-    font: inherit;
-  }
-  
-  input::placeholder {
-    font: inherit;
-  }
-  
-  /* img {
-    display: block;
-    width: 100%;
-  } */
-  
-  body {
-    background-color: var(--white-clr);
-    font-family: var(--main-font);
-    color: var(--black-clr);
-  }
-  
-  .flex {
-    display: flex;
-  }
-  
-  .grid {
-    display: grid;
-  }
-  
-  .fixed {
-    position: fixed;
-  }
-  
-  .absolute {
-    position: absolute;
-  }
-  
-  .relative {
-    position: relative;
-  }
+  --white-clr: rgb(255, 255, 255);
+  --black-clr: rgb(13, 13, 13);
+  --blue-clr: rgb(23, 102, 199);
+  --gray-clr: rgb(194, 194, 194);
+
+  --main-font: 'General Sans', sans-serf;
+  --logo-fnt: 'Switzer', sans-serif;
+
+  --link-hover-trans: .2s ease-out;
+}
+
+/* Resets */
+
+*, *::before, *::after {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overscroll-behavior: contain;
+}
+
+a {
+  display: block;
+
+  color: inherit;
+
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+ul {list-style: none;}
+
+button {
+  border: none;
+
+  background: none;
+
+  font: inherit;
+}
+
+input {
+
+  border: none;
+
+  background: none;
+
+  font: inherit;
+}
+
+input::placeholder {font: inherit;}
+
+img {
+  display: block;
+
+  width: 100%;
+}
+
+body {
+  background-color: var(--white-clr);
+  font-family: var(--main-font);
+  color: var(--black-clr);
+
+ 
+}
+
+.flex {display: flex;}
+
+.grid {display: grid;}
+
+.fixed {position: fixed;}
+
+.absolute {position: absolute;}
+
+.relative {position: relative;}

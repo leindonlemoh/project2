@@ -1,0 +1,68 @@
+/* portfolio section*/
+
+.team-header p {
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.section-portfolio {
+  width: 100%;
+  background-color: #196ebc;
+  height: 500px;
+}
+.team-header p {
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+#portfolio .row {
+  width: 100%;
+  padding-top: 50px;
+}
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.port-text {
+  text-align: center;
+  color: white;
+}
+.port-text .name {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.port-text .position {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-portfolio {
+    height: 800px;
+  }
+}
+@media only screen and (max-width: 471px) {
+  .section-portfolio {
+    height: 1120px;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .section-portfolio {
+    height: 1200px;
+  }
+}
+/* endportfolio */
