@@ -4,7 +4,7 @@ import image from "../../image/poster.png";
 const BeforeFooter = () => {
   return (
     <div>
-      <img src={image} class="img-fluid" alt="..."></img>;
+      <img src={image} class="img-fluid" alt="..."></img>
     </div>
   );
 };
