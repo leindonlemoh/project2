@@ -1,0 +1,78 @@
+div.checkout-form__main-container {
+    width: 100%;
+    height: 100%;
+}
+
+header.checkout {
+    width: 100%;
+
+    padding: 1rem;
+
+    background-color: var(--blue-clr);
+
+    color: var(--white-clr);
+}
+
+h1.logo {
+    font-size: 1.5rem;
+}
+
+div.checkout-form__container {
+    padding: 5rem 0;
+}
+
+h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+
+div.checkout-form__container span em {
+    font-size: .9rem;
+    color: var(--gray-clr);
+}
+
+span {
+    font-size: .9rem;
+}
+
+div.order__container {
+    width: 40%;
+
+    padding: 1rem;
+
+    border-radius: 25px;
+
+    background-color: var(--white-clr);
+
+    box-shadow: 0 0 2rem rgba(13, 13, 13, 20%);
+}
+
+div.order__image {
+    width: 150px;
+    height: 100px;
+
+    background-color: bisque;
+}
+
+div.order {
+    margin-bottom: 3rem;
+}
+
+div.order__title {
+    font-size: .9rem;
+}
+
+div.order__price {
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+div.order__bill {
+    justify-content: space-between;
+}
+
+div.order__bill span {
+    font-size: .9rem;
+}
+

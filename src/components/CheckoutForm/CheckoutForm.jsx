@@ -10,7 +10,7 @@ const CheckoutForm = (props) => {
 
         <div className="checkout-form__container">
             <h3>Order Summary</h3>
-            <span>*required</span>
+            <span><em>*required</em></span>
 
             <div className="order__container">
                 <div className="order flex">
@@ -34,6 +34,17 @@ const CheckoutForm = (props) => {
 
             <h3>Contact Information</h3>
             <span>Use this account to access materials and services related to your purchase</span>
+
+            <form className="contact">
+                <label htmlFor="email">Email Address</label><br />
+                <input type="email" name="email" id="email" className='contact-email' /> <br />
+
+                <label htmlFor="name">Name</label><br />
+                <input type="text" className='name' /> <br />
+
+                <input type="checkbox" name="checkbox" />
+                <span> I agree to receive instructional and promotional emails. (optional).</span>
+            </form>
             
         </div>
     </div>
