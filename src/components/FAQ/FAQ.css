@@ -1,0 +1,88 @@
+.faq {
+    padding: 8rem;
+
+    top: 130rem;
+
+    width: 100%;
+}
+
+.accordion-item {
+    padding: 1rem 0;
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    cursor: pointer;
+
+    color: gray;
+}
+
+.accordion-item:hover {
+    color:var(--black-clr);
+}
+
+.accordion-item h2 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.accordion-item {
+    position: relative;
+}
+
+.accordion-item::after .minus {
+    content: "-";
+}
+
+.accordion-item::after {
+    content: "+";
+
+    position:absolute;
+
+    right: 0;
+
+    padding: .4rem;
+
+    width: max-content;
+    height: max-content;
+
+    display: block;
+}
+
+.accordion-item i {
+    vertical-align: middle;
+
+    font-size: 1rem;
+
+    margin-bottom: 2rem;
+}
+
+.accordion-content {
+    background-color: var(--whiteColor);
+    transition: max-height 300ms ease-in-out;
+    border-top: solid 1px var(--blue-clr);
+    overflow: hidden;
+}
+
+.accordion-content p {
+    font-size: .8rem;
+    padding: 1rem;
+}
+
+.faq-title {
+    font-size: 3rem;
+
+    margin-bottom: 5rem;
+}
+
+/* CONTACT SECTION -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+section.contact {
+    width: 100%;
+    height: 50vh;
+
+    background-color: var(--blue-clr);
+}

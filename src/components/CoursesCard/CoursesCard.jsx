@@ -1,5 +1,6 @@
 import React from 'react';
 import './CoursesCard.css';
+import {Link} from 'react-router-dom';
 
 
 const CoursesCard = (props) => {
@@ -33,7 +34,9 @@ const CoursesCard = (props) => {
                 {props.description}
             </div>
 
-            <a href="../"><input type="button" value="Buy Now" /></a>
+            <Link to={props.link}>
+                <input type="button" value="Buy Now" />
+            </Link>
         </div>
     </div>
   );
