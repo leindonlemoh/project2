@@ -1,6 +1,6 @@
 div.buy-course-page {
     width: 100%;
-    height: 110vh;
+    height: 100vh;
 
     position: relative;
 
@@ -8,6 +8,7 @@ div.buy-course-page {
     align-items: center;
 
     padding: 3rem;
+    padding-top: 10%;
 
     background-color: bisque;
 }

@@ -25,6 +25,7 @@ const BusinessPage = () => {
                     teacherName="John Macaday"
                     price="$149"
                     description="Go beyond theory and learn color like a pro in this course from Greg Gunn. You'll master how to see, understand, and use color to create fresh, original work."
+                    link="/finance"
                   />
 
                   <CoursesCard 
@@ -34,7 +35,8 @@ const BusinessPage = () => {
                     teacherName="Victor Baltus"
                     price="$59"
                     description="Go beyond theory and learn color like a pro in this course from Greg Gunn. You'll master how to see, understand, and use color to create fresh, original work."
-                  />
+                    link="/advertising"
+                 />
 
                   <CoursesCard 
                     image={pic8}
@@ -43,6 +45,7 @@ const BusinessPage = () => {
                     teacherName="Severus Potter"
                     price="$219"
                     description="Go beyond theory and learn color like a pro in this course from Greg Gunn. You'll master how to see, understand, and use color to create fresh, original work."
+                    link="/marketing"
                   />
             </div>
         </div>

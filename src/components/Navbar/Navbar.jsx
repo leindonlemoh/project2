@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggleNavMenu, setToggleNavMenu] = useState(false);
@@ -9,12 +10,12 @@ const Navbar = () => {
       <div className="navbar__left-items flex">
         <div className="navbar__logo-container grid">
           <h1 className="navbar__logo">
-            <a href="../">nerD.</a>
+            <a href="/">nerD.</a>
           </h1>
         </div>
         <ul className="navbar__nav-list nav-list__left flex">
           <li className="navbar__nav-item nav-item__left">
-            <a href="../">Home</a>
+            <a href="/">Home</a>
           </li>
           <li className="navbar__nav-item nav-item__left">
             <a href="#courses">Courses</a>
@@ -31,7 +32,7 @@ const Navbar = () => {
       <div className="navbar__right-items flex">
         <ul className="navbar__nav-list nav-list__right flex">
           <li className="navbar__nav-item nav-item__right">
-            <a href="../">FAQ</a>
+            <Link to="/faq">FAQ</Link>
           </li>
           <li className="navbar__nav-item nav-item__right">
             <a href="../">Contact</a>

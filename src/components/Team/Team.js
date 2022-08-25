@@ -17,6 +17,7 @@ const Team = () => {
             <a
               href="https://joanlogronio.github.io/joanportfolio/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img className="photo" src={Jo} alt="" />
               <div className="port-text">
@@ -32,6 +33,7 @@ const Team = () => {
             <a
               href="https://leindonlemoh.github.io/leindonportfolio/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img className="photo" src={Don} alt="" />
               <div className="port-text">
@@ -48,6 +50,7 @@ const Team = () => {
             <a
               href="https://vvndll.github.io/wendell-portfolio"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img className="photo" src={Wendell} alt="" />
               <div className="port-text">
