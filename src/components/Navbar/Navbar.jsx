@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggleNavMenu, setToggleNavMenu] = useState(false);
@@ -18,13 +18,13 @@ const Navbar = () => {
             <a href="/">Home</a>
           </li>
           <li className="navbar__nav-item nav-item__left">
-            <a href="/:id">Courses</a>
+            <a href="#courses">Courses</a>
           </li>
           <li className="navbar__nav-item nav-item__left">
-            <a href="/:id">About Us</a>
+            <a href="#about">About Us</a>
           </li>
           <li className="navbar__nav-item nav-item__left">
-            <a href="/:id">Team</a>
+            <a href="#team">Team</a>
           </li>
         </ul>
       </div>
