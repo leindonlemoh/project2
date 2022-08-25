@@ -1,6 +1,7 @@
 import React from 'react';
 import './CoursesCard.css';
 
+
 const CoursesCard = (props) => {
   return (
     <div className="courses-card">
@@ -32,7 +33,7 @@ const CoursesCard = (props) => {
                 {props.description}
             </div>
 
-            <input type="button" value="Buy Now" />
+            <a href="../"><input type="button" value="Buy Now" /></a>
         </div>
     </div>
   );

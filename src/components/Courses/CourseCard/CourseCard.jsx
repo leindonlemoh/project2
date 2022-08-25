@@ -1,5 +1,7 @@
 import React from 'react';
 import './CourseCard.css';
+import { Link } from 'react-router-dom';
+// import { Link } from '@mui/material';
 
 const CourseCard = (props) => {
   return (
@@ -15,11 +17,11 @@ const CourseCard = (props) => {
             <p>{props.description}</p>
         </div>
 
-        <a href="../">
+        <Link to={props.link}>
             <div class="course-button">
                 {props.course}
             </div>
-        </a>
+        </Link>
     </div>
   );
 };

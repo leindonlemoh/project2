@@ -1,9 +1,9 @@
 import React from 'react';
 import './BusinessPage.css';
 import Heading from './Heading/Heading';
-import Color from '../../image/color.jpg';
-import Typography from '../../image/typography.jpg';
-import Design from '../../image/design.jpg';
+import pic1 from '../../image/5.jpg';
+import pic3 from '../../image/3.jpg';
+import pic8 from '../../image/8.jpg';
 import CoursesCard from '../CoursesCard/CoursesCard';
 
 const BusinessPage = () => {
@@ -19,27 +19,27 @@ const BusinessPage = () => {
         <div className="business__courses">
             <div className="business__grid-container grid">
                   <CoursesCard 
-                    image={Color}
+                    image={pic1}
                     imagealt="color"
-                    title="Color For Creatives"
+                    title="Finance 101"
                     teacherName="John Macaday"
                     price="$149"
                     description="Go beyond theory and learn color like a pro in this course from Greg Gunn. You'll master how to see, understand, and use color to create fresh, original work."
                   />
 
                   <CoursesCard 
-                    image={Typography}
+                    image={pic3}
                     imagealt="typography"
-                    title="Typography 01"
+                    title="Advertising"
                     teacherName="Victor Baltus"
                     price="$59"
                     description="Go beyond theory and learn color like a pro in this course from Greg Gunn. You'll master how to see, understand, and use color to create fresh, original work."
                   />
 
                   <CoursesCard 
-                    image={Design}
+                    image={pic8}
                     imagealt="design"
-                    title="Grids and Layout"
+                    title="Marketing"
                     teacherName="Severus Potter"
                     price="$219"
                     description="Go beyond theory and learn color like a pro in this course from Greg Gunn. You'll master how to see, understand, and use color to create fresh, original work."

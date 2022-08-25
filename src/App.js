@@ -1,33 +1,34 @@
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
-import About from './components/About/About';
-import Banner from "./components/Banner/Banner";
-import Team from "./components/Team/Team";
-import Courses from './components/Courses/Courses';
 import Footer from './components/Footer/Footer';
 import DesignPage from './components/ServicesPage/DesignPage';
 import TechPage from './components/ServicesPage/TechPage';
 import BusinessPage from './components/ServicesPage/BusinessPage';
-import BuyCoursePage from './components/BuyCoursePage/BuyCoursePage';
+// import BuyCoursePage from './components/BuyCoursePage/BuyCoursePage';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Homepage from './Homepage';
+
 
 const App = () => {
   return (
     <div>
+     <BrowserRouter>
         <Navbar />
-        <Banner />
-        <Courses />
-        <Team />
-        <About/>
-        <DesignPage />
-        <BusinessPage />
-        <TechPage />
 
-        <BuyCoursePage/>
+        <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/design-page" element={<DesignPage />} />
+            <Route path="/business-page" element={<BusinessPage />} />
+            <Route path="/tech-page" element={<TechPage />} />
+        </Routes>
 
+        
+        
+       
         <Footer/>
-        
-        
+        </BrowserRouter>
+ 
     </div>
   );
 }

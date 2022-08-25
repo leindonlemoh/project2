@@ -1,9 +1,8 @@
 import React from 'react';
 import './DesignPage.css';
 import Heading from './Heading/Heading';
-import Color from '../../image/color.jpg';
-import Typography from '../../image/typography.jpg';
-import Design from '../../image/design.jpg';
+import Color from '../../image/11.png';
+import Typography from '../../image/10.png';
 import CoursesCard from '../CoursesCard/CoursesCard';
 
 const DesignPage = () => {
@@ -36,14 +35,6 @@ const DesignPage = () => {
                     description="Go beyond theory and learn color like a pro in this course from Greg Gunn. You'll master how to see, understand, and use color to create fresh, original work."
                   />
 
-                  <CoursesCard 
-                    image={Design}
-                    imagealt="design"
-                    title="Grids and Layout"
-                    teacherName="Severus Potter"
-                    price="$219"
-                    description="Go beyond theory and learn color like a pro in this course from Greg Gunn. You'll master how to see, understand, and use color to create fresh, original work."
-                  />
             </div>
         </div>
 
