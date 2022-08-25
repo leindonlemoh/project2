@@ -17,7 +17,7 @@ const Banner = () => {
           <input
             type="email"
             className="email"
-            placeholder="     Enter your email"
+            value="   Enter your email"
             name="subscribe"
           />
           <button type="submit" className="submit" name="submit">
