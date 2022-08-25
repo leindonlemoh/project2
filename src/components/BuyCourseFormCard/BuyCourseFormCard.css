@@ -1,0 +1,53 @@
+form.buy-course-form-card {
+    width: 40%;
+
+    height: max-content;
+
+    padding: 3.5rem;
+
+    background-color: var(--white-clr);
+}
+
+div.course__title {
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+
+div.course__price {
+    font-size: 2rem;
+    font-weight: 500;
+
+    margin-bottom: 1.5rem;
+}
+
+div.course__description {
+    width: 100%;
+
+    margin-bottom: 1.5rem;
+}
+
+li.material__item i {
+    margin-right: 1rem;
+    color: var(--blue-clr);
+}
+
+ul.material__list {
+    margin-bottom: 1.5rem;
+}
+
+form.buy-course-form-card input {
+    width: 100%;
+
+    background-color: var(--blue-clr);
+    color: var(--white-clr);
+    border: 1px solid var(--blue-clr);
+
+    padding: .5rem 0;
+
+    transition: background-color .2s ease-out;
+}
+
+form.buy-course-form-card input:hover {
+    background-color: var(--white-clr);
+    color: var(--blue-clr);
+}

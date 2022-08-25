@@ -1,11 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import image from "../image/poster.png";
 
 const Footer = () => {
   return (
     <div>
-      <img src={image} class="img-fluid" alt="..."></img>
       <footer className="footer">
         <div className="footer-content"></div>
 
