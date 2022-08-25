@@ -1,10 +1,12 @@
 .banner {
+  padding: 3rem;
+  padding-top: 10%;
   position: relative;
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 80vh;
-  border-bottom: 2px solid #196ebc;
+  height: 100vh;
+  border-bottom: 1px solid rgba(25, 110, 188, .8);
 }
 /* banner left  text and inputs container*/
 .banner-left {
@@ -18,9 +20,9 @@
 /* Banner Text */
 div .banner-text {
   color: #196ebc;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: justify;
   width: 100%;
 }
 /* search and email container */
@@ -43,10 +45,8 @@ div .banner-text {
 div .email {
   border: 2px solid #196ebc;
   background: none;
-  text-align: left;
-  font-size: 20px;
+  font-size: 1.3rem;
   border-radius: 25px;
-  height: 50px;
   color: #196ebc;
   width: 100%;
 }

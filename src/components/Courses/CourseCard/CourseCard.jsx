@@ -8,8 +8,8 @@ const CourseCard = (props) => {
             <h2 class="h2">{props.heading}</h2>
         </div>
 
-        <div class="image">
-        </div>
+        {/* <div class="image">
+        </div> */}
 
         <div class="course-description flex">
             <p>{props.description}</p>
