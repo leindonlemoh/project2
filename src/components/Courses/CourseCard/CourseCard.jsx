@@ -1,5 +1,7 @@
 import React from 'react';
 import './CourseCard.css';
+import { Link } from 'react-router-dom';
+// import { Link } from '@mui/material';
 
 const CourseCard = (props) => {
   return (
@@ -8,18 +10,18 @@ const CourseCard = (props) => {
             <h2 class="h2">{props.heading}</h2>
         </div>
 
-        <div class="image">
-        </div>
+        {/* <div class="image">
+        </div> */}
 
         <div class="course-description flex">
             <p>{props.description}</p>
         </div>
 
-        <a href="../">
+        <Link to={props.link}>
             <div class="course-button">
                 {props.course}
             </div>
-        </a>
+        </Link>
     </div>
   );
 };

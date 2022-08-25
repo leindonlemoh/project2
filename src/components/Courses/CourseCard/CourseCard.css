@@ -16,6 +16,10 @@ div.course-card {
     position: relative;
 
     transition: box-shadow var(--link-hover-trans);
+
+    color: var(--black-clr);
+
+    cursor: pointer;
 }
 
 .course-card:hover {
@@ -29,28 +33,13 @@ div.course-card {
 div.course-header h2.h2 {
     font-size: 2.5rem;
     font-weight: 500;
+    text-align: center;
 }
 
 div.course-description p {
     font-size: 1.1rem;
+    text-align: center;
 }
-
-div.image {
-    width: 120px;
-    height: 120px;
-
-    border-radius: 50%;
-
-    position: absolute;
-
-    top:-3rem;
-    left:2rem;
-
-    background-color: var(--white-clr);
-
-    box-shadow: 0 0 1rem rgba(13, 13, 13, 5%);
-}
-
 
 
 div.course-button {
@@ -73,4 +62,69 @@ div.course-button {
 div.course-button:hover {
     background-color: var(--white-clr);
     color: var(--blue-clr);
+}
+
+
+@media screen and (max-width: 1150px) {
+    div.course-card {
+        height: 450px;
+
+        gap: 0;
+    }
+    div.course-header h2.h2 {
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+
+    div.course-description p {
+        font-size: .8rem;
+    }
+
+    div.course-button:last-child {
+        padding: 1rem 2.5rem;
+    
+        background-color: var(--blue-clr);
+        border: 1px solid var(--blue-clr);
+    
+        color: var(--white-clr);
+    
+        font-size: .8rem;
+        font-weight: 500;
+    
+        text-transform: uppercase;
+    
+        transition: background-color var(--link-hover-trans); 
+    }
+}
+
+@media screen and (max-width: 900px) {
+    div.course-card {
+        width: 65%;
+        padding: 2rem 2rem;
+        height: 400px;
+
+        margin-bottom: 1rem;
+        
+    }
+
+    div.course-header h2.h2 {
+        font-size: 2rem;
+    }
+
+    div.course-description p {
+        width: 85%;
+       margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+
+    div.course-description p {
+        width: 85%;
+     }
+
+    div.course-card {
+        width: 100%;
+    }
 }

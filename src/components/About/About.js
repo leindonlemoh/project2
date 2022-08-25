@@ -1,11 +1,11 @@
 import React from "react";
 import about from "../../image/about.png";
-import "./About.css"
-
+import "./About.css";
 
 const About = () => {
-    return (
-        <div className="about">
+  return (
+    <div className="about">
+      <a id="about"></a>
       <div className="title">
         <div className="about-title">About Us</div>
       </div>
@@ -25,7 +25,7 @@ const About = () => {
         </div>
       </div>
     </div>
-    )
-}
+  );
+};
 
-export default About
+export default About;

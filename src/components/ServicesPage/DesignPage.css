@@ -1,0 +1,58 @@
+
+
+div.design__main-container {
+    width: 100%;
+    height: 100%;
+
+    padding: 3rem;
+
+    background-color: var(--blue-clr);
+}
+
+div.design__banner {
+    width: 100%;
+    margin-bottom: 5rem;
+
+    height: 100%;
+
+    position: relative;
+
+    align-items: center;
+
+}
+
+
+div.design__courses {
+    width: 100%;
+
+    background-color: var(--white-clr);
+
+    padding: 1rem;
+}
+
+div.design__grid-container {
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 0 3rem;
+    
+}
+
+@media screen and (max-width: 1150px)  {
+
+    div.design__grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    
+        gap: 0 3rem;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    div.design__grid-container {
+        grid-template-columns: 1fr;
+    
+    }
+    div.design__main-container {
+        padding: .5rem;
+    }
+}
