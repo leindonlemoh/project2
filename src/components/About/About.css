@@ -82,7 +82,7 @@
   }
   /* image */
   .about-image {
-    display: flex;
+    display: none;
   }
   .about-image img {
     justify-self: flex-end;
