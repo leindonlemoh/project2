@@ -9,7 +9,7 @@ const Team = () => {
     <section className="section-portfolio">
       <a id="team"></a>
       <div className="team-header">
-        <p> Meet The Team</p>
+         Meet The Team
       </div>
       <div id="portfolio" class="container text-center">
         <div className="row">

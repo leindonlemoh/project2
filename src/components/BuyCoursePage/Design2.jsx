@@ -9,6 +9,7 @@ const Design2 = () => {
             title="Typography 01"
             price="$59"
             description="Go beyond theory and learn color like a pro in this course from Greg Gunn. You'll master how to see, understand, and use color to create fresh, original work."
+            link="/typography-checkout-form"
         />
     </div>
   );

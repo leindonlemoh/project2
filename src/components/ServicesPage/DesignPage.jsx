@@ -1,8 +1,8 @@
 import React from 'react';
 import './DesignPage.css';
 import Heading from './Heading/Heading';
-import Color from '../../image/11.png';
-import Typography from '../../image/10.png';
+import Color from '../../image/color.jpg';
+import Typography from '../../image/typography.jpg';
 import CoursesCard from '../CoursesCard/CoursesCard';
 
 const DesignPage = () => {

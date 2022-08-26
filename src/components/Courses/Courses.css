@@ -2,17 +2,52 @@ div.courses {
     width: 100%;
     height: 100%;
 
-    padding: 3rem 0;
+
+    padding: 5rem 2rem;
+    
+
+    margin: 0 auto;
 
     flex-direction: column;
 
     align-items: center;
+    justify-content: center;
+}
+
+span.courses-header {
+    font-size: 3.7rem;
+    font-weight: 600;
+
+    color: var(--blue-clr);
+}
+
+span.courses-subheader {
+    color: var(--blue-clr);
+    font-size: 1.2rem;
+    font-weight: 300;
+
+    width: 75%;
+    text-align: center;
+
+    margin-bottom: 5rem;
+}
+
+
+
+div.course-icon {
+    width: 100%;
+}
+
+div.course-icon img {
+    width: 15%;
 }
 
 h2.courses__heading {
     font-size: 4rem;
     font-weight: 500;
-    color: var(--black-clr);
+    color: var(--blue-clr);
+
+    text-align: center;
 
     margin-bottom: 3rem;
 }
@@ -20,21 +55,30 @@ h2.courses__heading {
 section.courses__container {
     grid-template-columns: repeat(3, 1fr);
 
-    padding: 2rem 5rem;
+    padding: 2rem 15rem;
 
-    gap: 0 1.7rem;
+    gap: 0 1rem;
+}
+
+@media screen and (max-width: 1150px) {
+    section.courses__container {
+        grid-template-columns: repeat(3, 1fr);
+    
+        padding: 0 5rem;
+    
+        gap: 0 .5rem;
+    }
 }
 
 
 @media screen and (max-width:900px) {
     div.courses {
-    
         padding: 3rem 0;
-
     }
 
     section.courses__container {
         display: flex;
+
         flex-direction: column;
     
         padding: 2rem 5rem;
@@ -43,7 +87,49 @@ section.courses__container {
 
         text-align: center;
     
-        gap: 0 1.7rem;
+        row-gap: 3rem;
     }
+
+    span.courses-header {
+        font-size: 3.2rem;
+    }
+    
+    span.courses-subheader {
+
+        font-size: 1rem;
+
+        width: 50%;
+
+    }
+
+    div.course-icon {
+        width: 100%;
+    }
+
+    div.course-icon img {
+        width: 10%;
+    }
+
+  
+}
+
+@media screen and (max-width:590px) {
+
+   
+    span.courses-header {
+        font-size: 1.7rem;
+    }
+    
+    span.courses-subheader {
+
+        font-size: .8rem;
+
+        text-align: left;
+        width: 100%;
+
+        padding: 0 2rem;
+
+    }
+  
 }
 

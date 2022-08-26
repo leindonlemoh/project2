@@ -9,6 +9,7 @@ const Business1 = () => {
             title="Finance"
             price="$149"
             description="Go beyond theory and learn color like a pro in this course from Greg Gunn. You'll master how to see, understand, and use color to create fresh, original work."
+            link="/finance-checkout-form"
         />
     </div>
   );

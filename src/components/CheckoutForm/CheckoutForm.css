@@ -5,54 +5,66 @@ div.checkout-form__main-container {
 
 header.checkout {
     width: 100%;
+    height: 10%;
 
-    padding: 1rem;
+    padding: .8rem 1rem;
 
     background-color: var(--blue-clr);
 
     color: var(--white-clr);
+
+    position: absolute;
+
+    top:0;
+    left:0;
+
+    z-index: 1000000;
 }
 
 h1.logo {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    font-family: var(--logo-fnt);
+    font-weight: 300;
 }
 
 div.checkout-form__container {
-    padding: 5rem 0;
+    
+    padding: 2rem 0 2rem 15rem;
+
+    padding-top: 10%;
 }
 
 h3 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
 
-div.checkout-form__container span em {
-    font-size: .9rem;
-    color: var(--gray-clr);
-}
-
 span {
     font-size: .9rem;
+    color: rgb(86, 86, 86);
 }
 
-div.order__container {
+form {
     width: 40%;
 
     padding: 1rem;
 
-    border-radius: 25px;
+    border-radius: 5px;
 
     background-color: var(--white-clr);
 
-    box-shadow: 0 0 2rem rgba(13, 13, 13, 20%);
+    box-shadow: 0  0 1rem rgba(13, 13, 13, 13%);
+
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 div.order__image {
     width: 150px;
     height: 100px;
 
-    background-color: bisque;
+    margin-right: 1rem;
 }
 
 div.order {
@@ -75,4 +87,82 @@ div.order__bill {
 div.order__bill span {
     font-size: .9rem;
 }
+
+
+form.contact input[type="email"], input[type="text"]  {
+    border: 1px solid var(--gray-clr);
+    border-radius: 4px;
+
+    padding: .3rem 1rem;
+
+    margin: .8rem 0;
+
+    width: 100%;
+}
+
+form.payment img {
+    width: 15%;
+
+    display: inline-block;
+}
+
+form.contact {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+button.checkout {
+    padding: .8rem;
+
+    background-color: var(--blue-clr);
+    color: var(--white-clr);
+
+    border-radius: 8px;
+}
+
+input[type="radio"] {
+    width: 1rem;
+}
+
+div.payment-method {
+    padding-bottom: .8rem;
+    border-bottom: 1px solid var(--gray-clr);
+}
+
+div.payment-method, div.credit {
+    column-gap: .8rem;
+}
+
+div.credit {
+   padding: 2rem 0;
+}
+
+div.last {
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.last input {
+    width: 90%;
+}
+
+form.payment {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+@media screen and (max-width: 1150px) {
+
+    header.checkout{
+        height: 5%;
+    }
+    div.checkout-form__container {
+    
+        padding: 2rem 0 2rem 8rem;
+    
+        padding-top: 20%;
+    }
+}
+
 

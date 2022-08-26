@@ -13,9 +13,3 @@ div.buy-course-page {
     background-color: bisque;
 }
 
-div.buy-course-page video {
-    position: absolute;
-
-    z-index: -1;
-    width: 100%;
-}

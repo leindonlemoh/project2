@@ -1,14 +1,16 @@
 import React from "react";
 import "./Banner.css";
-import banner from "../../image/banner.png";
+import banner from "../../image/banner-pic.jpg";
 
 const Banner = () => {
   return (
     <div className="banner">
       <div className="banner-left">
+      <span>Ever wondered how to take full advantage of your self-study?</span> 
         <p className="text-break banner-text">
-          Ever wondered how to take full advantage of your self-study? If so,
-          This might just be the platform for you. Not only do we have a huge
+        <br/>
+          If so,
+          this might just be the platform for you. Not only do we have a huge
           selection of courses available at the click of a button, but we also
           provide a complete platform that helps you stay motivated and easily
           track your progress.
@@ -17,11 +19,11 @@ const Banner = () => {
           <input
             type="email"
             className="email"
-            value="   Enter your email"
+            placeholder="Enter your email"
             name="subscribe"
           />
           <button type="submit" className="submit" name="submit">
-            Subscribe Now
+          <i className="bi bi-arrow-right"></i>
           </button>
         </div>
       </div>

@@ -11,7 +11,7 @@ const Footer = () => {
           <p>
             {" "}
             copyright &copy;2022 <br /> nerd.onlinecourseswebsite by{" "}
-            <span>Group 3</span>
+           Group 3
           </p>
         </div>
       </footer>

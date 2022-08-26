@@ -61,6 +61,11 @@
     height: 100%;
     
   }
+
+  .footer-bottom p {
+
+    color: white;
+  }
 .poster{
   width: 1265px;
 }

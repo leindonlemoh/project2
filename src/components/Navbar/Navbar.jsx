@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import Signup from "../Signup/Signup";
 
 const Navbar = () => {
   const [toggleNavMenu, setToggleNavMenu] = useState(false);
+  const [toggleSignUp, setToggleSignUp] = useState(false);
 
   return (
     <nav className="navbar flex fixed">
@@ -38,8 +40,10 @@ const Navbar = () => {
             <a href="../">Contact</a>
           </li>
         </ul>
-        <div className="navbar__sign-in-btn grid">Sign In</div>
+        <div className="navbar__sign-in-btn grid" onClick={() => {setToggleSignUp(true)}}>Sign Up</div>
       </div>
+
+      {toggleSignUp && (<Signup setToggleSignUp={setToggleSignUp} />)}
 
       <div className="navbar__smallscreen flex">
         <div

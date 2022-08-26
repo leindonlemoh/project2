@@ -16,6 +16,7 @@ import Homepage from "./Homepage";
 import CheckoutForm from './components/CheckoutForm/CheckoutForm';
 import FAQ from "./components/FAQ/FAQ";
 
+
 const App = () => {
   return (
     <div>
@@ -34,9 +35,14 @@ const App = () => {
           <Route path="/marketing" element={<Business3 />} />
           <Route path="/creative-coding" element={<Tech1 />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/color-checkout-form" element={<CheckoutForm image={require("./image/color.jpg")} alt="color" title="Color For Creatives" price="$149" />} />
+          <Route path="/typography-checkout-form" element={<CheckoutForm image={require("./image/typography.jpg")} alt="typography" title="Typography 01" price="$59" />} />
+          <Route path="/finance-checkout-form" element={<CheckoutForm image={require("./image/finance.jpg")} alt="finance" title="Finance" price="$149" />} />
+          <Route path="/advertising-checkout-form" element={<CheckoutForm image={require("./image/advertising.jpg")} alt="advertising" title="Advertising" price="$59" />} />
+          <Route path="/marketing-checkout-form" element={<CheckoutForm image={require("./image/marketing.jpg")} alt="marketing" title="Marketing" price="$219" />} />
+          <Route path="/creative-coding-checkout-form" element={<CheckoutForm image={require("./image/creativecoding.jpg")} alt="creative-coding" title="Creative Coding" price="$349" />} />
         </Routes>
         <Footer />
-        {/* <CheckoutForm /> not finished yet */}
       </BrowserRouter>
     </div>
   );
