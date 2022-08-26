@@ -5,19 +5,21 @@ div.design__main-container {
     height: 100%;
 
     padding: 3rem;
+    padding-bottom: 0;
 
     background-color: var(--blue-clr);
+    
 }
 
 div.design__banner {
     width: 100%;
     margin-bottom: 5rem;
 
-    height: 100%;
-
     position: relative;
 
     align-items: center;
+
+
 
 }
 
@@ -25,9 +27,9 @@ div.design__banner {
 div.design__courses {
     width: 100%;
 
-    background-color: var(--white-clr);
+    background-color: rgba(255,255,255, 90%);
 
-    padding: 1rem;
+    padding: 2rem 5rem;
 }
 
 div.design__grid-container {
@@ -43,6 +45,13 @@ div.design__grid-container {
         grid-template-columns: repeat(3, 1fr);
     
         gap: 0 3rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    div.design__grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    
     }
 }
 

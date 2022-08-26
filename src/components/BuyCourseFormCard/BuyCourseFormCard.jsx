@@ -1,5 +1,6 @@
 import React from 'react';
 import './BuyCourseFormCard.css';
+import {Link} from 'react-router-dom';
 
 const BuyCourseFormCard = (props) => {
   return (
@@ -25,7 +26,7 @@ const BuyCourseFormCard = (props) => {
           <li className="material__item"><i class="bi bi-check-circle-fill"></i>Downloadable project files</li>
         </ul>
 
-        <input type="button" value="Buy Now" />
+        <Link to={props.link}><input type="button" value="Buy Now" /></Link>
     </form>
   );
 };

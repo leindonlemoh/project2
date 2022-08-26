@@ -5,6 +5,7 @@ div.tech__main-container {
     height: 100%;
 
     padding: 3rem;
+    padding-bottom: 0;
 
     background-color: var(--blue-clr);
 }
@@ -25,9 +26,10 @@ div.tech__banner {
 div.tech__courses {
     width: 100%;
 
-    background-color: var(--white-clr);
+   
+    background-color: rgba(255,255,255, 90%);
 
-    padding: 1rem;
+    padding: 2rem 5rem;
 }
 
 div.tech__grid-container {

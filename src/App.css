@@ -2,10 +2,10 @@
   --white-clr: rgb(255, 255, 255);
   --black-clr: rgb(13, 13, 13);
   --blue-clr: rgb(23, 102, 199);
-  --gray-clr: rgb(194, 194, 194);
+  --gray-clr: rgb(191, 191, 191);
 
-  --main-font: 'General Sans', sans-serf;
-  --logo-fnt: 'Switzer', sans-serif;
+  --main-font: 'Satoshi', sans-serf;
+  --logo-fnt: 'Technor', sans-serif;
 
   --link-hover-trans: .2s ease-out;
 }

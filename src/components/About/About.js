@@ -11,13 +11,13 @@ const About = () => {
       </div>
       <div className="about-content">
         <div className="about-text">
-          <p className="text-break">
             We are a student of Kodego Philippines who is helping others to
             learn and reinforce skills wherever we are. Whether you want to
             learn a new subject, gain a new skill, or just enhance the ones you
-            already have. We believe in empowering individuals with learning
+            already have. 
+            <br/> <br/>
+            We believe in empowering individuals with learning
             disabilities and their difference. We are based in the Philippines.
-          </p>
         </div>
 
         <div className="about-image">

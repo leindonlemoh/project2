@@ -1,9 +1,9 @@
 import React from 'react';
 import './BusinessPage.css';
 import Heading from './Heading/Heading';
-import pic1 from '../../image/5.jpg';
-import pic3 from '../../image/3.jpg';
-import pic8 from '../../image/8.jpg';
+import pic1 from '../../image/finance.jpg';
+import pic3 from '../../image/advertising.jpg';
+import pic8 from '../../image/marketing.jpg';
 import CoursesCard from '../CoursesCard/CoursesCard';
 
 const BusinessPage = () => {

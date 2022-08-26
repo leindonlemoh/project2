@@ -1,55 +1,71 @@
 .banner {
-  padding: 3rem;
-  padding-top: 10%;
   position: relative;
+  padding-top: 10%;
   display: flex;
-  flex-direction: row;
   width: 100%;
   height: 100vh;
-  border-bottom: 1px solid rgba(25, 110, 188, 0.8);
 }
 /* banner left  text and inputs container*/
 .banner-left {
   width: 60%;
+  height: 100%;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  margin-left: 5rem;
 }
 /* Banner Text */
 div .banner-text {
-  color: #196ebc;
-  font-size: 1.5rem;
-  font-weight: 500;
-  text-align: justify;
-  width: 100%;
+  color: var(--black-clr);
+  font-size: 1rem;
+  line-height: 1.4;
+  width: 60%;
+
+  margin-bottom: 2rem;
+  
+}
+
+.banner-left span {
+  font-size: 3.7rem;
+  font-weight: 600;
+
+  line-height: 1.09;
+
+  color: var(--blue-clr);
+
+  width: 700px;
+
 }
 /* search and email container */
 .search-email {
   display: flex;
-  flex-direction: row;
-  gap: 90px;
+  width: 100%;
+  
 }
 /* banner Image */
 .img-banner {
-  width: 40%;
+  width: 45%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
+
+  opacity: 92%;
+  position: absolute;
+
+  top:0;
+  right: 0;
+
+  z-index: -1;
+
 }
 
 /* end banner right */
 /* banner input EMAIL */
 div .email {
-  border: 2px solid #196ebc;
+  border: 1px solid #196ebc;
   background: none;
-  font-size: 1.3rem;
-  border-radius: 25px;
-  color: #196ebc;
-  width: 100%;
-  padding: 5px;
+  font-size: 1.5rem;
+  padding: .5rem;
 }
 /* BANNER SIGNUP */
 div .submit {
@@ -57,151 +73,132 @@ div .submit {
   border: 1px solid #196ebc;
   color: white;
   font-size: 20px;
-  border-radius: 25px;
   cursor: pointer;
-  height: 50px;
-  width: 70%;
-  box-shadow: 10px 9px 7px -4px rgba(25, 110, 188, 0.75);
-  -webkit-box-shadow: 10px 9px 7px -4px rgba(25, 110, 188, 0.75);
-  -moz-box-shadow: 10px 9px 7px -4px rgba(25, 110, 188, 0.75);
+  padding: 0 1rem;
+  width: max-content;
+  transition: .2s ease-out;
 }
 
-@media only screen and (max-width: 900px) {
-  .banner {
-    position: relative;
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
+button.submit:hover {
+  background-color: var(--white-clr);
+  color: var(--blue-clr);
+}
+
+div .submit i {
+  font-size: 2rem;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+  .banner-left span {
+    font-size: 3.5rem;
+  
+    width: 500px;
+  
   }
 
-  div .email {
-    border: 2px solid white;
-    background: none;
-    font-size: 1.3rem;
-    border-radius: 25px;
-    color: white;
-    width: 100%;
-    padding: 5px;
-  }
-  div .submit {
-    background: white;
-    border: 1px solid white;
-    color: #196ebc;
-    font-size: 15px;
-    border-radius: 25px;
-    cursor: pointer;
-    height: 50px;
-    width: 75%;
-  }
-  div .banner-text {
-    color: white;
-  }
-  .banner {
-    background-color: #196ebc;
-  }
-  .search-email {
-    display: flex;
-    flex-direction: row;
-
-    gap: 90px;
-  }
   .img-banner {
-    display: none;
+    width: 50%;
   }
+
+}
+
+@media screen and (max-width: 1150px) {
+
+  .img-banner {
+    width: 100%;
+  }
+
+  .banner-left span {
+    font-size: 3.5rem;
+    font-weight: 600;
+  
+    line-height: 1.09;
+  
+    color: var(--white-clr);
+  
+    width: 700px;
+
+  }
+
+  
+  input.email::placeholder {
+    color: white;
+  }
+
+
+  p.banner-text {
+
+    color: var(--white-clr);
+  }
+
+}
+
+@media screen and (max-width: 950px) {
+  .banner {
+    display: grid;
+    
+    place-items: center;
+  }
+
   .banner-left {
+    margin: 0;
+  }
+
+  .banner-left span {
+    font-size: 3.2rem; 
+    width: 100%;
+  }
+
+  p.banner-text {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+      padding: 0;
+      margin: 0;
+    }
+
+    .banner-left span {
+      width: 100%;
+
+      font-size: 2.7rem;
+    }
+
+    p.banner-text {
+      font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+  .banner-left span {
     width: 100%;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .img-banner {
-    display: none;
-  }
-  div .submit {
-    background: white;
-    border: 1px solid white;
-    color: #196ebc;
-    font-size: 15px;
-    border-radius: 25px;
-    cursor: pointer;
-    height: 50px;
-    width: 75%;
-  }
-  div .banner-text {
-    color: white;
-  }
-  .banner {
-    background-color: #196ebc;
-  }
-  .search-email {
-    display: flex;
-    flex-direction: row;
-
-    gap: 90px;
-  }
-}
-@media only screen and (max-width: 510px) {
-  .banner {
-    padding: 3rem;
-    padding-top: 10%;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 90vh;
-    border-bottom: 1px solid rgba(25, 110, 188, 0.8);
-  }
-  .search-email {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-  }
-}
-@media only screen and (max-width: 438px) {
-  .banner {
-    height: 110vh;
-  }
-  .search-email {
-    display: flex;
-    flex-direction: row;
-    width: 310px;
-    gap: 10px;
-  }
-  div .email {
-    border: 2px solid white;
-    background: none;
-    text-align: left;
-    font-size: 15px;
-    border-radius: 25px;
-    height: 40px;
-    color: white;
-    width: 85%;
-  }
-  div .submit {
-    background: white;
-    border: 1px solid white;
-    color: #196ebc;
-    font-size: 15px;
-    border-radius: 25px;
-    cursor: pointer;
-    height: 40px;
-    width: 75%;
-  }
-  .img-banner {
-    display: none;
+    font-size: 2rem;
   }
 
-  div .banner-text {
-    color: white;
+  input.email {
+    font-size: 1rem;
+
+    padding: .3rem;
+
+    height: max-content;
   }
-  .banner {
-    background-color: #196ebc;
+
+
+
+div .submit i {
+    font-size: 1.1rem;
+  }
+
+  
+  p.banner-text {
+    font-size: .8rem;
   }
 }
+
+
+
